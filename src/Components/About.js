@@ -31,7 +31,7 @@ export default function About(props) {
     <div className="container py-4 rounded" style={myStyle}>
       {/* Hero Section */}
       <div className="text-center mb-5">
-        <h1 className="display-4 fw-bold">About TextUtils</h1>
+        <h1 className="display-4 fw-bold">About LEXI-FORGE</h1>
         <p className="lead text-secondary">
           Empowering your daily text processing with speed, clarity, and precision.
         </p>

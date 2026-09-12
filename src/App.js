@@ -36,13 +36,13 @@ function App() {
 
   return (
     <Router>
-      <NavBar title="TextUtils" mode={darkMode} toggleMode={toggleDarkMode} />
+      <NavBar title="LEXI-FORGE" mode={darkMode} toggleMode={toggleDarkMode} />
       <Alert alert={alert} />
       <div className="container my-3">
         <Routes>
           <Route 
             path="/" 
-            element={<TextForm heading="TextUtils TEXT Area" mode={darkMode} showAlert={showAlert} />} 
+            element={<TextForm heading="LEXI-FORGE TEXT AREA" mode={darkMode} showAlert={showAlert} />} 
           />
           <Route 
             path="/about" 
